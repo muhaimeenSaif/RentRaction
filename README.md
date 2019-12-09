@@ -5,6 +5,7 @@ Both tenant and user can login and update their profile. The owner can pay their
 Owner can also have managers under him to maintain his/her house. The owner and tenant can directly chat, they can see who is currently active and there are notitifications for the ofline messages when one logins to the platform.
 
 Technologies Used:-
+
 The project is build using Laravel. The framework of the MVC is well maintained. 
 MySql is used as database, ajax and javaScript for building the chatting system.
 Eloquent is used for cleating tables and querrieng values from DB. At some places for complex data fetching, raw querry is used which is the function of eloquent. You will get some good understanding of db querries related with inner-join, searche insert and update, all with the eloquent.

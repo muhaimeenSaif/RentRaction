@@ -1,10 +1,10 @@
-Description of the project:-
+## Description of the project:-
 
 A tenant-owner application where owners publish ads for their house/room rent. A tenant can view all the houses without logging in but to contact the owner they have to sign-in. Tenant can request for the house and owner can view all the requests for renting the house in their dashboard. The owner can chat with the applied tenant and accept whomever he wants.
 Both tenant and user can login and update their profile. The owner can pay their rent directly throught the platform (still not added all the features for it, might be using the stripe API at some point). The tenant can file a complain against any occurance and the message this will be pushed to the owner immediately.
 Owner can also have managers under him to maintain his/her house. The owner and tenant can directly chat, they can see who is currently active and there are notitifications for the ofline messages when one logins to the platform.
 
-Technologies Used:-
+## Technologies Used:-
 
 The project is build using Laravel. The framework of the MVC is well maintained. 
 MySql is used as database, ajax and javaScript for building the chatting system.
@@ -13,7 +13,7 @@ Bootstrap, HTML, CSS and the blade templeting is used for front-end
 The entire website is responsive so that it can be seamlessly used on mobile device with out breaking any visual representation 
 
 
-Steps to run the project:-
+## Steps to run the project:-
 
 1) Install Xampp, composer and npm. If you already have then then it's great.
 2) Copy the project and put it to your htdocs folder.

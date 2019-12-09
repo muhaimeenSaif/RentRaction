@@ -15,21 +15,20 @@ The entire website is responsive so that it can be seamlessly used on mobile dev
 
 Steps to run the project:-
 
-Install Xampp, composer and npm. If you already have then then it's great.
-Copy the project and put it to your htdocs folder.
-Go to your VS code terminal (I prefer using VS code) and if you are not having it then you can simply open any bash terminal and run the following command. 
-"composer update" it will  then it will update all the packages in your local copy.
-Go to your xampp folder then apache->conf->extra and open the httpd-vhosts.conf file. At the bottom add the following lines:-
-
-                                            <VirtualHost *:80>
-                                            DocumentRoot "c:/xampp/htdocs/RentRaction/public"
-                                            ServerName rentraction.test
-                                            <Directory "c:/xampp/htdocs/RentRaction">
-                                            </Directory>
-                                            </VirtualHost>
+1) Install Xampp, composer and npm. If you already have then then it's great.
+2) Copy the project and put it to your htdocs folder.
+3) Go to your VS code terminal (I prefer using VS code) and if you are not having it then you can simply open any bash            terminal and run the following command:- 
+   "composer update" it will  then it will update all the packages in your local copy.
+4) Go to your xampp folder then apache->conf->extra and open the httpd-vhosts.conf file. At the bottom add the following          lines:-
+            <VirtualHost *:80>
+            DocumentRoot "c:/xampp/htdocs/RentRaction/public"
+            ServerName rentraction.test
+            <Directory "c:/xampp/htdocs/RentRaction">
+            </Directory>
+            </VirtualHost>
 Make sure to change the directoryName and the DpccumentRoot  as your xampp's drive where you have installed it.
 
-Now go to "C:\Windows\System32\Drivers\etc\" and open the "hosts" file in your notepad/nodepad++, make sure you are in administration mode. At the bottom of the file add "172.0.0.1  rentraction.test" and save it
+5) Now go to "C:\Windows\System32\Drivers\etc\" and open the "hosts" file in your notepad/nodepad++, make sure you are in       administration mode. At the bottom of the file add "172.0.0.1  rentraction.test" and save it.
+6) Close the Xampp and start the Apache and MySql again. 
 
-Close the Xampp and start the Apache and MySql again. 
 You should be good to start the project. Go to the browser and type rentraction.test

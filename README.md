@@ -8,7 +8,7 @@ Owner can also have managers under him to maintain his/her house. The owner and 
 
 The project is build using Laravel. The framework of the MVC is well maintained. 
 MySql is used as database, ajax and javaScript for building the chatting system.
-Eloquent is used for cleating tables and querrieng values from DB. At some places for complex data fetching, raw querry is used which is the function of eloquent. You will get some good understanding of db querries related with inner-join, searche insert and update, all with the eloquent.
+Eloquent is used for creating tables and querrieng values from DB. At some places for complex data fetching, raw querry is used which is the function of eloquent. You will get some good understanding of db querries related with inner-join, searche insert and update, all with the eloquent.
 Bootstrap, HTML, CSS and the blade templeting is used for front-end
 The entire website is responsive so that it can be seamlessly used on mobile device with out breaking any visual representation 
 

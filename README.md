@@ -1,3 +1,11 @@
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 ## Description of the project:-
 
 A tenant-owner application where owners publish ads for their house/room rent. A tenant can view all the houses without logging in but to contact the owner they have to sign-in. Tenant can request for the house and owner can view all the requests for renting the house in their dashboard. The owner can chat with the applied tenant and accept whomever he wants.

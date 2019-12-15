@@ -6,6 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+
 ## Description of the project:-
 
 A tenant-owner application where owners publish ads for their house/room rent. A tenant can view all the houses without logging in but to contact the owner they have to sign-in. Tenant can request for the house and owner can view all the requests for renting the house in their dashboard. The owner can chat with the applied tenant and accept whomever he wants.
